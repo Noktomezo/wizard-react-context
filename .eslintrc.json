@@ -1,0 +1,22 @@
+{
+	"root": true,
+	"extends": [
+		"neon/common",
+		"neon/node",
+		"neon/typescript",
+		"neon/prettier",
+		"neon/react"
+	],
+	"rules": {
+		"@typescript-eslint/consistent-type-definitions": ["error", "interface"],
+		"import/extensions": "off",
+		"import/no-extraneous-dependencies": "off",
+		"no-restricted-globals": "off",
+		"id-length": "off",
+		"prefer-named-capture-group": "off"
+	},
+	"parserOptions": {
+		"project": "./tsconfig.json"
+	},
+	"ignorePatterns": ["**/dist/*"]
+}

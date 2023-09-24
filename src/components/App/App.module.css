@@ -1,0 +1,20 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #2f3136;
+}
+
+.wrapper {
+	width: 420px;
+	background-color: #202020;
+	color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.wrapper h1 {
+	font-size: 36px;
+	text-align: center;
+}
